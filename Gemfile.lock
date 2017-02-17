@@ -1,0 +1,69 @@
+GIT
+  remote: https://github.com/trema/phut.git
+  revision: 3ab00d8fa3e9bae95279c5225f5080ead92eaadc
+  branch: develop
+  specs:
+    phut (0.7.7)
+      activesupport (~> 5.0.0.1)
+      gli (~> 2.14.0)
+      pio (~> 0.30.0)
+      pry (~> 0.10.3)
+
+GIT
+  remote: https://github.com/trema/pio.git
+  revision: a64e9a0a25b4719588ff9b9555458ab8c49cfa85
+  branch: develop
+  specs:
+    pio (0.30.0)
+      activesupport (~> 5.0.0.1)
+      bindata (~> 2.1.0)
+
+GIT
+  remote: https://github.com/trema/trema.git
+  revision: c7fb7205d2df4a7bfb6eaf1afaf6896592fe5d5a
+  branch: develop
+  specs:
+    trema (0.10.1)
+      bundler (>= 1.11.2, < 2.0)
+      gli (~> 2.14.0)
+      phut (~> 0.7.7)
+      pio (~> 0.30.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    awesome_print (1.7.0)
+    bindata (2.1.0)
+    coderay (1.1.1)
+    colorize (0.8.1)
+    concurrent-ruby (1.0.4)
+    gli (2.14.0)
+    i18n (0.8.0)
+    method_source (0.8.2)
+    minitest (5.10.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  colorize
+  phut!
+  pio!
+  trema!
+
+BUNDLED WITH
+   1.14.4
